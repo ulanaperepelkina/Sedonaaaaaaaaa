@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.modal-window{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 242, 242, 0.8);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-window:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.window-body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-contant{
+    position: relative;
+    width: 577px;
+    height: 448px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 64px 70px;
+}
+
+.window-title{
+
+}
+
+.window-text{
+    width: 577px;
+    height: 348px;
+    margin-top: 100px;
+}
+
+
+.window-close{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.window-item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    height: 48px;
+}
+
+
+.form-data{
+    height: inherit;
+    width: 440px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.modal-window-image{
+    position: absolute;
+    right: 20px;
+}
+
+.close-button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%; 
+    right: 60px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.family{
+    display: flex;
+    align-items: center;
+}
+
+.family-calc{
+    display: flex;
+    width: 110px;
+    height: 48px;
+    padding-left: 30px;
+}
+
+.family-button{
+    width: 40px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 24px;
+    color: #d3d3d3;
+}
+
+
+.family-input{
+    width: 30px;  
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+.title{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+.find{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #82b3d3;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.reference{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #82b3d3;
+    border-radius: 50%;
+    color: #ffffff;
+    position: relative;
+    left: 30%;
+}
+
+.exclamation-mark{
+    padding-left: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.clue{
+    width: 256px;
+    height: 143px;
+    position: absolute;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 10px;
+    top: 73%;
+    right: 12%;
+    z-index: 2;
+}
+
+.clue-text{
+    padding: 15px;
+    font-size: 18px;
+}
